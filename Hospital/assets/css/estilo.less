@@ -1,0 +1,354 @@
+@preto:  black;
+@branco: white;
+@sombra: #a5a2a2;
+@borda: #dcdada;
+@preto_claro: rgba(0, 2, 1, 0.4);
+@azul: rgb(59, 89, 152);
+body{
+	
+	
+
+}
+
+.navbar{
+	margin-bottom: 20px;
+	
+}
+
+.caixa_login{
+	margin-top: 75px;
+	border: solid 1px @borda;
+	padding: 25px 25px 35px 25px;
+	background-color: @branco;
+	
+	box-shadow: 5px 5px 10px @sombra;
+	border-radius: 20px;
+	.teste{
+		display: flex;
+		justify-content: center;
+	}
+	#facebook{
+			width: 100%;
+			background-color: @azul;
+			margin-top: 20px;
+		}
+	#twitter{
+		width: 100%;
+		margin-top: 20px;
+	}
+	form {
+
+		h2{
+			text-align: center;
+			color: @preto;
+			margin-bottom: 25px;
+			margin-top: -10px;
+			font-family: 'Nunito', sans-serif;
+			font-size: 55px;
+
+
+		}
+
+		.imagem_login{
+			    display: flex;
+			    align-items: center;
+			    justify-content: center;
+			    margin-bottom: 35px;
+			    
+
+		}
+
+		
+
+		button{
+			margin-bottom: 20px;
+		}
+		img{
+			width: 300px;
+			display: flex;
+			justify-content: center;
+		}
+
+
+
+	 }
+		p{
+			margin-bottom: 0px;
+		}
+
+}
+
+
+p#recuperar {
+		text-align: center;
+		font-weight: bold;
+		color: @preto;
+		font-size: 18px;
+		margin-top: 20px;
+	}
+
+.editar i{
+	font-size: 22px;
+}
+
+#my_form {
+ display: none;
+}
+
+.alert{
+	p{
+		text-align: center;
+		margin: 0px;
+		font-size: 25px;
+
+	}
+	margin-top: 25px;
+}
+
+.navbar-brand  img{
+	width: 200px;
+}
+
+.navbar .navbar-light{
+ 	background-color: @branco;
+}
+
+.nav-link  i{
+	font-size: 30px;
+	padding-left: 0px;
+	
+}
+.caixa_painel{
+	margin-top: 75px;
+	border: solid 1px @borda;
+	padding: 35px 25px 35px 25px;
+	background-color: @branco ;
+
+	box-shadow: 5px 5px 10px @sombra;
+	border-radius: 10px;
+	
+	
+
+	h2{
+		color: @preto;
+		text-align: center;
+		margin-bottom: 25px;
+	}
+
+	label{
+		color: @preto;
+	}
+	p{
+		color: @preto;
+		font-size: 25px;
+		
+	}
+	p.paciente{
+		font-size: 20px;
+	}
+	h2.paciente{
+		margin-bottom: 0px;
+	}
+
+
+
+
+}
+#paciente{
+	padding: 25px 10px 30px 10px;
+}
+@media (max-width: 1199px){
+	.caixa_painel{
+		margin-top: 75px;
+		border: solid 1px @borda;
+		padding: 35px 25px 35px 25px;
+		background-color: @branco ;
+
+		box-shadow: 5px 5px 10px @sombra;
+		border-radius: 10px;
+		
+		
+
+		h2{
+			color: @preto;
+			text-align: center;
+			margin-bottom: 25px;
+			font-size: 25px;
+		}
+
+		label{
+			color: @preto;
+		}
+		p{
+			color: @preto;
+			font-size: 25px;
+		}
+
+	}
+}
+
+
+.caixa_quarto{
+	margin-top: 75px;
+	border: solid 1px @borda;
+	padding: 35px 25px 35px 25px;
+	background-color: @branco ;
+
+	box-shadow: 5px 5px 10px @sombra;
+	border-radius: 10px;
+
+	h2{
+		color: @preto;
+		text-align: center;
+		margin-bottom: 25px;
+	}
+
+	label{
+		color: @preto;
+	}
+	p{
+		color: @preto;
+		font-size: 25px;
+	}
+
+	
+}
+
+form.form-inline{
+	margin-right:  35px;
+}
+
+.nav-item{
+	margin-right: 20px
+
+}
+
+.table{
+	background-color: @branco;
+	box-shadow: 5px 5px 10px @sombra;
+	
+}
+
+.caixa_especialidade{
+	border: solid 1px @borda;
+	padding: 35px 27px 20px 25px;
+	background-color: @branco ;
+	margin-bottom: 30px;
+	
+	box-shadow: 5px 5px 10px @sombra;
+	border-radius: 10px;
+	h2{
+		color: @preto;
+		text-align: center;
+	}
+	label{
+		color: 	@preto;
+	}
+}
+
+.modal-body img{
+	width: 350px;
+	height: 200px;
+}
+
+.fa-edit{
+	font-size: 23px;
+}
+
+.fa-trash-alt{
+	font-size: 23px;
+}
+.caixa_medico{
+	margin-top: 75px;
+	border: solid 1px @borda;
+	padding: 35px 25px 35px 25px;
+	background-color: @branco ;
+
+	box-shadow: 5px 5px 10px @sombra;
+	border-radius: 10px;
+	h2{
+		color: @preto;
+		text-align: center;
+	}
+	label{
+		color:@preto;
+	}
+	#form_especialidade{
+		color: @preto;
+
+	}
+	button{
+		margin-top: 25px;
+	}
+}
+
+.caixa_painel {
+  animation-duration: 1.5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+.caixa_remedio{
+	margin-top: 75px;
+	border: solid 1px @borda;
+	padding: 35px 25px 35px 25px;
+	background-color: @branco ;
+
+	box-shadow: 5px 5px 10px @sombra;
+	border-radius: 10px;
+	h2{
+		color: @preto;
+		text-align: center;
+	}
+	label{
+		color:@preto;
+	}
+	
+	button{
+		margin-top: 25px;
+	}
+
+}
+
+.fa-user-md{
+	font-size: 23px;
+}
+.fa-address-card{
+	font-size: 20px;
+}
+.fa-calendar-alt{
+	font-size: 26px;
+}
+
+.caixa_paciente{
+	margin-top: 75px;
+	border: solid 1px @borda;
+	padding: 25px 25px 35px 25px;
+	background-color: @branco;
+	box-shadow: 5px 5px 10px @sombra;
+	border-radius: 20px;
+	h2{
+		text-align: center;
+	}
+}
+
+
+
+		
+ 
+
+
+
+

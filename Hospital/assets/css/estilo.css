@@ -1,0 +1,260 @@
+.navbar {
+  margin-bottom: 20px;
+}
+.caixa_login {
+  margin-top: 75px;
+  border: solid 1px #dcdada;
+  padding: 25px 25px 35px 25px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 10px #a5a2a2;
+  border-radius: 20px;
+}
+.caixa_login .teste {
+  display: flex;
+  justify-content: center;
+}
+.caixa_login #facebook {
+  width: 100%;
+  background-color: #3b5998;
+  margin-top: 20px;
+}
+.caixa_login #twitter {
+  width: 100%;
+  margin-top: 20px;
+}
+.caixa_login form h2 {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 25px;
+  margin-top: -10px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 55px;
+}
+.caixa_login form .imagem_login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+.caixa_login form button {
+  margin-bottom: 20px;
+}
+.caixa_login form img {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+.caixa_login p {
+  margin-bottom: 0px;
+}
+p#recuperar {
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.editar i {
+  font-size: 22px;
+}
+#my_form {
+  display: none;
+}
+.alert {
+  margin-top: 25px;
+}
+.alert p {
+  text-align: center;
+  margin: 0px;
+  font-size: 25px;
+}
+.navbar-brand img {
+  width: 200px;
+}
+.navbar .navbar-light {
+  background-color: #ffffff;
+}
+.nav-link i {
+  font-size: 30px;
+  padding-left: 0px;
+}
+.caixa_painel {
+  margin-top: 75px;
+  border: solid 1px #dcdada;
+  padding: 35px 25px 35px 25px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 10px #a5a2a2;
+  border-radius: 10px;
+}
+.caixa_painel h2 {
+  color: #000000;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.caixa_painel label {
+  color: #000000;
+}
+.caixa_painel p {
+  color: #000000;
+  font-size: 25px;
+}
+.caixa_painel p.paciente {
+  font-size: 20px;
+}
+.caixa_painel h2.paciente {
+  margin-bottom: 0px;
+}
+#paciente {
+  padding: 25px 10px 30px 10px;
+}
+@media (max-width: 1199px) {
+  .caixa_painel {
+    margin-top: 75px;
+    border: solid 1px #dcdada;
+    padding: 35px 25px 35px 25px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px #a5a2a2;
+    border-radius: 10px;
+  }
+  .caixa_painel h2 {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 25px;
+  }
+  .caixa_painel label {
+    color: #000000;
+  }
+  .caixa_painel p {
+    color: #000000;
+    font-size: 25px;
+  }
+}
+.caixa_quarto {
+  margin-top: 75px;
+  border: solid 1px #dcdada;
+  padding: 35px 25px 35px 25px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 10px #a5a2a2;
+  border-radius: 10px;
+}
+.caixa_quarto h2 {
+  color: #000000;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.caixa_quarto label {
+  color: #000000;
+}
+.caixa_quarto p {
+  color: #000000;
+  font-size: 25px;
+}
+form.form-inline {
+  margin-right: 35px;
+}
+.nav-item {
+  margin-right: 20px;
+}
+.table {
+  background-color: #ffffff;
+  box-shadow: 5px 5px 10px #a5a2a2;
+}
+.caixa_especialidade {
+  border: solid 1px #dcdada;
+  padding: 35px 27px 20px 25px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  box-shadow: 5px 5px 10px #a5a2a2;
+  border-radius: 10px;
+}
+.caixa_especialidade h2 {
+  color: #000000;
+  text-align: center;
+}
+.caixa_especialidade label {
+  color: #000000;
+}
+.modal-body img {
+  width: 350px;
+  height: 200px;
+}
+.fa-edit {
+  font-size: 23px;
+}
+.fa-trash-alt {
+  font-size: 23px;
+}
+.caixa_medico {
+  margin-top: 75px;
+  border: solid 1px #dcdada;
+  padding: 35px 25px 35px 25px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 10px #a5a2a2;
+  border-radius: 10px;
+}
+.caixa_medico h2 {
+  color: #000000;
+  text-align: center;
+}
+.caixa_medico label {
+  color: #000000;
+}
+.caixa_medico #form_especialidade {
+  color: #000000;
+}
+.caixa_medico button {
+  margin-top: 25px;
+}
+.caixa_painel {
+  animation-duration: 1.5s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.caixa_remedio {
+  margin-top: 75px;
+  border: solid 1px #dcdada;
+  padding: 35px 25px 35px 25px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 10px #a5a2a2;
+  border-radius: 10px;
+}
+.caixa_remedio h2 {
+  color: #000000;
+  text-align: center;
+}
+.caixa_remedio label {
+  color: #000000;
+}
+.caixa_remedio button {
+  margin-top: 25px;
+}
+.fa-user-md {
+  font-size: 23px;
+}
+.fa-address-card {
+  font-size: 20px;
+}
+.fa-calendar-alt {
+  font-size: 26px;
+}
+.caixa_paciente {
+  margin-top: 75px;
+  border: solid 1px #dcdada;
+  padding: 25px 25px 35px 25px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 10px #a5a2a2;
+  border-radius: 20px;
+}
+.caixa_paciente h2 {
+  text-align: center;
+}
